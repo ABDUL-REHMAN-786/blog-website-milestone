@@ -32,25 +32,25 @@ export default function Header() {
         <nav className="hidden md:flex justify-center items-center gap-10 mr-4">
           <Link
             href="/"
-            className="font-inter text-[#333333] text-[18px] font-medium"
+            className="font-inter text-red-700 underline text-[18px] font-medium"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="font-inter text-[#333333] text-[18px] font-medium"
+            className="font-inter text-red-700 underline text-[18px] font-medium"
           >
             About
           </Link>
           <Link
             href="/blog"
-            className="font-inter text-[#333333] text-[18px] font-medium"
+            className="font-inter text-red-700 underline text-[18px] font-medium"
           >
             Blog
           </Link>
           <Link
             href="/contact"
-            className="font-inter text-[#333333] text-[18px] font-medium"
+            className="font-inter text-red-700 underline text-[18px] font-medium"
           >
             Contact
           </Link>
